@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "844214780025",
+    "firebase_url": "https://khednym3ak-cbeda.firebaseio.com",
+    "project_id": "khednym3ak-cbeda",
+    "storage_bucket": "khednym3ak-cbeda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844214780025:android:2264165d5e2653d67a14a8",
+        "android_client_info": {
+          "package_name": "com.khednym3ak.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844214780025-qsmhhup12d7olcup24d47n00p512bcti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGW8HNX4KLyuluf3VfNNrONJzojje4DS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844214780025-qsmhhup12d7olcup24d47n00p512bcti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
