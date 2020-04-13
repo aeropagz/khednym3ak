@@ -94,6 +94,7 @@
                     android:gravity="center_horizontal">
 
                     <TextView
+                        android:id="@+id/profile_rating"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
@@ -127,6 +128,7 @@
                     android:gravity="center_horizontal">
 
                     <TextView
+                        android:id="@+id/profile_drive"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
@@ -171,6 +173,7 @@
                     android:textColor="@color/headings"
                     android:textSize="13sp"/>
                 <TextView
+                    android:id="@+id/profile_email"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#000"
@@ -196,6 +199,7 @@
                         android:textColor="@color/headings"
                         android:textSize="13sp"/>
                     <TextView
+                        android:id="@+id/profile_phone"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="#000"

@@ -18,7 +18,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class SignInActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -44,8 +43,8 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
 
         //Buttons onClickListner
 
-        findViewById(R.id.button_sign_in).setOnClickListener(this);
-        findViewById(R.id.button_go_to_sign_up).setOnClickListener(this);
+        findViewById(R.id.button_sign_up).setOnClickListener(this);
+        findViewById(R.id.button_back_to_login).setOnClickListener(this);
 
 
 
@@ -56,11 +55,11 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick (View view) {
         int viewId = view.getId();
         switch (viewId){
-            case R.id.button_sign_in:
+            case R.id.button_sign_up:
                 Log.d(TAG, "Sign In pressed");
                 signIn(mEmailField.getText().toString(),mPasswordField.getText().toString());
                 break;
-            case R.id.button_go_to_sign_up:
+            case R.id.button_back_to_login:
                 Log.d(TAG, "Sign Up pressed");
                 startActivity(new Intent(SignInActivity.this, SignUpActivity.class));
                 finish();
