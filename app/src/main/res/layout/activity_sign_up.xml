@@ -60,7 +60,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginHorizontal="@dimen/default_margin"
         android:background="@drawable/button_bg"
         android:textColor="#fafafa"/>
     <TextView
@@ -75,7 +76,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Back to Login"
-        android:layout_marginBottom="25dp"
+        android:layout_marginHorizontal="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
         android:background="@drawable/button_bg"
         android:textColor="#fafafa"/>
 

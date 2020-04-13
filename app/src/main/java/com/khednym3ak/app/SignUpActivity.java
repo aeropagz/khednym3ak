@@ -116,7 +116,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     private void writeNewUser(String userId, String username, String email){
         User user = new User(username, email);
         
-        mDatabase.child("users").child(userId).setValue(user);
+        mDatabase.child(userId).setValue(user);
     }
 
     private String usernameFromEmail(String email){
