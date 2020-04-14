@@ -15,8 +15,8 @@
 
         <RelativeLayout
             android:id="@+id/rellay1"
-            android:layout_width="413dp"
-            android:layout_height="254dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:background="@drawable/grad"
             app:layout_constraintBottom_toTopOf="@+id/textView6"
             app:layout_constraintEnd_toEndOf="parent"
@@ -186,7 +186,7 @@
 
         <Button
             android:id="@+id/button_logout"
-            android:layout_width="347dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="50dp"
@@ -206,8 +206,8 @@
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="204dp"
-            android:layout_height="78dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="TextView"
             app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
             app:layout_constraintEnd_toStartOf="@+id/textView7"
